@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #000;
+    color: #FFF;
+}
+
+.main{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+}
