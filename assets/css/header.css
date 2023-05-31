@@ -45,6 +45,7 @@
     background-size: contain;
     margin-right: .5rem;
 }
+
 .information .job::before{
     background-image: url('/assets/img/icons/job.svg');
 }

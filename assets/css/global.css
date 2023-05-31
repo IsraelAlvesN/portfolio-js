@@ -8,6 +8,16 @@ body{
     color: #FFF;
 }
 
+a{
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .main{
     padding: 1rem;
     margin: 1rem;

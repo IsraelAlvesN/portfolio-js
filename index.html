@@ -14,10 +14,14 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/accordion.css">
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
     <title>Meu Portfolio</title>
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img class="photo" src="./assets/img/person.png" alt="">
     
@@ -26,22 +30,104 @@
             <div class="information">
                 <p class="job">Junior Developer</p>
                 <p class="location">São Paulo - SP</p>
-                <p class="phone">119XXXX-XXXX</p>
-                <p class="email">nicolauprog21@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:119XXXX-XXXX">119XXXX-XXXX</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:nicolauprog21@gmail.com">nicolauprog21@gmail.com</a>
+                </p>
             </div>
         </header>
 
         <section class="accordion open">
-            <button class="triggerAccordion" type="button">Idiomas</button>
+            <button class="triggerAccordion" type="button">
+                <h2>Skills</h2>
+            </button>
             <div class="content">
-                <ul>
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Work skills:</h3>
+                        <ul>
+                            <li>
+                                <img src="./assets/img/languages/git.svg" alt="git" title="git">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/java.svg" alt="java" title="java">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/react.svg" alt="react" title="react">
+                            </li>
+                            <li>
+                                <img src="./assets/img/languages/nodejs.svg" alt="nodejs" title="nodejs">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Personal skills:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Comunicação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="accordion">
+            <button class="triggerAccordion" type="button">
+                <h2>Languages</h2>
+            </button>
+            <div class="content">
+                <ul class="languages">
                     <li>Português</li>
                     <li>Inglês</li>
                     <li>Espanhol</li>
                 </ul>
             </div>
         </section>
-    </div>
+        <section class="accordion">
+            <button class="triggerAccordion" type="button">
+                <h2>Projects</h2>
+            </button>
+            <div class="content">
+                <ul class="projects">
+                    <li>
+                        <h3 class="title github">Criando app com Javascript</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando app com Javascript</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando app com Javascript</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="accordion">
+            <button class="triggerAccordion" type="button">
+                <h2>Work Experience</h2>
+            </button>
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-End Developer</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid ipsum quis iusto. Ullam veritatis deleniti perferendis distinctio dolorem voluptatibus, accusamus iure doloremque officia quas at accusantium excepturi non alias?</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Front-End Developer</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid ipsum quis iusto. Ullam veritatis deleniti perferendis distinctio dolorem voluptatibus, accusamus iure doloremque officia quas at accusantium excepturi non alias?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
 
     <script src="/assets/js/accordion.js"></script>
     
