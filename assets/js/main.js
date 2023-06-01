@@ -31,9 +31,43 @@ function updateHardSkills(profileData){
     `).join('')
 }
 
+function updateLanguages(profileData){
+    const languages = document.getElementById('profile.languages')
+
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+}
+
+function updatePortfolio(profileData){
+    const portfolio = document.getElementById('profile.projects')
+
+    portfolio.innerHTML = profileData.portfolio.map(portfolio => {
+        return `
+            <li>
+                <h3 ${portfolio.github ? 'class="github"' : ''}">${portfolio.name}</h3>
+                <a href=${portfolio.url} target="_blank">${portfolio.url}</a>
+            </li>
+    `}).join('')
+}
+
+function updateExperience(profileData){
+    const experience = document.getElementById('profile.experience')
+
+    experience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+                <p>${experience.description}</p>
+            </li>
+    `}).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
+    updateLanguages(profileData)
+    updatePortfolio(profileData)
+    updateExperience(profileData)
 })()

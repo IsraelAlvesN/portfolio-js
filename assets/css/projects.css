@@ -22,7 +22,7 @@
     margin: 0;
     margin-bottom: .5rem;
 }
-.projects li .title.github::before{
+.projects li > .github::before{
     content: '';
     background-image: url('/assets/img/icons/github.svg');
     display: inline-block;
