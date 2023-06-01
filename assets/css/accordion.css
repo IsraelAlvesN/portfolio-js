@@ -35,7 +35,7 @@
 
 .accordion .triggerAccordion::after{
     content: '';
-    background-image: url('assets/img/icons/arrow-top.svg');
+    background-image: url('/assets/img/icons/arrow-top.svg');
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
