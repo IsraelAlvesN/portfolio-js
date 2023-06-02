@@ -12,29 +12,24 @@
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
         },
         {
-          "name": "Java",
+          "name": "JS",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-        },
-        {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
         },
         {
           "name": "React",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
         },
         {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "name": "MySql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
         },
         {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "name": "C#",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/csharp.png"
         }
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
         "Trabalho em equipe",
         "Flexibilidade",
         "Organização"
@@ -43,36 +38,60 @@
     "languages": [
       "Português BR",
       "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+      "Espanhol (iniciante)"
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "An whatsapp clone with React",
+        "url": "https://github.com/IsraelAlvesN/whatsapp-clone",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Project proposed by DIO to create a pokedex in react",
+        "url": "https://github.com/IsraelAlvesN/pokedex-js",
+        "github": true
+      },
+      {
+        "name": "Application to controls bills and incomes",
+        "url": "https://github.com/IsraelAlvesN/gerenciador-de-despesas",
+        "github": true
+      },
+      {
+        "name": "A DIO project to make a Stumble Guys clone",
+        "url": "https://github.com/IsraelAlvesN/bombardment",
+        "github": true
+      },
+      {
+        "name": "A DIO project to make a Flappy Bird clone",
+        "url": "https://github.com/IsraelAlvesN/flappy-bird",
+        "github": true
+      },
+      {
+        "name": "A project to make a RPG game with React",
+        "url": "https://github.com/IsraelAlvesN/game-rpg-react",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Application Developer / PWC",
+        "period": "2022 - 2023",
+        "description": "I worked in a large team, participating in different stages of the project and interacting in order to know more about the sector I was inserted. Contributes to the front-end through tools such as React with Material UI, Figma, Azure Devops and Confluence, managing to understand the project as a whole, in addition to developing. I also achieved Microsoft's AZ900 certification."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "name": "Administrative Assistant / Laureate Universities",
+        "period": "2020 - 2021",
+        "description": "I carried out activities from attracting students to finalizing enrollment. Through specific systems that allowed viewing all stages of the process and keeping the student updated through e-mails or direct contact with the assistant."
+      }
+    ],
+    "educationBackground": [
+      {
+        "name": "Front-End Developer / Kenzie Academy",
+        "period": "2021 - 2022"
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Analysis and systems development / FMU",
+        "period": "2018 - 2020"
       }
     ]
   }
