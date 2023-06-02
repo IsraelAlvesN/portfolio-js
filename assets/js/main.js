@@ -9,12 +9,11 @@ function updateProfileInfo(profileData){
     job.innerText = profileData.job
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
-    const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
+    const linkedin = document.getElementById('profile.linkedin')
+    linkedin.innerHTML = `<a href=${'https://www.linkedin.com/in/israel-n-2b1705227/'}>${profileData.linkedin}</a>`
     const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
+    email.innerHTML = `<a href='mailto:${profileData.email}'}>${profileData.email}</a>`
+    // email.href = `mailto:${profileData.email}`
 }
 
 function updateSoftSkills(profileData){
@@ -62,6 +61,18 @@ function updateExperience(profileData){
     `}).join('')
 }
 
+function updateEducationBackground(profileData){
+    const education = document.getElementById('profile.education')
+
+    education.innerHTML = profileData.educationBackground.map(education => {
+        return `
+            <li>
+                <h3 class="title">${education.name}</h3>
+                <p class="period">${education.period}</p>
+            </li>
+    `}).join('')
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -70,4 +81,5 @@ function updateExperience(profileData){
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateExperience(profileData)
+    updateEducationBackground(profileData)
 })()

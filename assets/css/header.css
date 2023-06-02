@@ -4,7 +4,7 @@
     align-items: center;
     position: relative;
 }
-.header::after{
+/* .header::after{
     content: "";
     background-image: url('../img/icons/header.svg');
     display: inline-block;
@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 .header .photo{
     width: 300px;
@@ -50,13 +50,16 @@
     background-image: url('../img/icons/job.svg');
 }
 .information .location::before{
-    background-image: url('../img/icons//location.svg');
+    background-image: url('../img/icons/location.svg');
 }
 .information .phone::before{
-    background-image: url('../img/icons//phone.svg');
+    background-image: url('../img/icons/phone.svg');
 }
 .information .email::before{
-    background-image: url('../img/icons//email.svg');
+    background-image: url('../img/icons/email.svg');
+}
+.information .linkedin::before{
+    background-image: url('../img/icons/email.svg');
 }
 
 @media only screen and (min-width: 768px) {
